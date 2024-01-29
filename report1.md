@@ -2,11 +2,12 @@ Lab Report 1:
 
 `cd`  (no arguments) 
 
-![image](https://github.com/Ayyuan1/cse15l-lab-reports/assets/156359241/dba7d470-4a08-4c65-bb1b-2797d2a8b2fa) 
+![image](https://github.com/Ayyuan1/cse15l-lab-reports/assets/156359241/360f3664-9bb7-42b1-905b-5e93faac6da5)
+
 
 -`/home` 
 
--There is no output because nothing will happen unless you state which directory you would want to change to.
+-There is no output because nothing will happen unless you state which directory you would want to change to. If you are in a directory deeper than the home directory and call cd, you will be returned to the home directory.
 
 -This output is not an error; there is no error message.
 
@@ -28,7 +29,7 @@ Lab Report 1:
 
 -The output is telling us we cannot us cd to a file because a file is not a directory.
 
--This is not an error, it is intentional to show the user that the input of their command was invalid.
+-This is and error because the cd command is stricty for changing into other directories, which a file is not, as displayed in the error message.
 
 `ls` (no arguments)
 
